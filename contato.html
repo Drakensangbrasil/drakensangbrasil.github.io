@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+
+        <meta charset="uft8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+
+
+                                <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/df4d023486.js" crossorigin="anonymous"></script>
+
+
+                  <!-- source do bootstrap, rodando local-->
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+
+        <title>-CLASSES - DSOBR - </title>
+
+   
+   
+   
+    </head>
+    
+
+    <body>
+
+        <div class="background-bonus">
+            <img src="./img/contato.jpg" />
+        </div>
+    
+    <header>
+        <div class="container">
+            <div class="row">
+                                        <!--LOGO-MENU-->
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 menu-logo">
+                    <a href="./index.html"><img src="./img/logo-cinza.png" /></a>
+                </div>    
+                
+                                            <!--MENU-->
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6 link">
+                    <nav id="menu">                    
+                    <ul>
+                        <li><a href="./noticias.html">NOTICIAS</a> </li>
+                        <li><a href="./classes.html">CLASSES</a></li>
+                        <li><a href="./equips.html">EQUIPS & SETS</a></li>  
+                        <li><a href="./bonus.html">BONUS CODE</a></li>  
+                        <li id ="selected"><a href="./contato.html">CONTATO</a></li>  
+                    </ul>  
+                    </nav>                                
+                </div>       
+            </div>
+        </div>
+    </header> 
+
+        <div class="container">
+            <div class="row">
+               
+                                        <!--CONTEUDO-TEXTO-->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <h3 id="texto">CONTATO</h3>
+                        <h2 id="texto">MANDE UMA MENSAGEM PARA NÓS!</h2>​
+                </div>
+                                        <!--MAIS-CONTEUDO-->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mais-conteudo">    
+                    <nav>
+                    <a href="#page-1" >    
+                        <i class="fas fa-angle-down fa-4x conteudo-cont"></i>
+                    </a>
+                    </nav>
+                    <scroll-container class="scroll-container">
+                        <scroll-page id="page-1"></scroll-page>
+                                                    
+                    </scroll-container>  
+                    
+                </div>
+            </div>
+        </div>
+
+    <main> 
+        <div class="container">
+            <div class="row">
+
+                                           <!--CONTEUDO-TEXTO-->
+                                           
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 mais-conteudo">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                   
+                        <h3 id="titulo">CONTATO </h3>
+                        <h2 id="texto2">Mande uma mensagem para nós.</h2>
+              
+
+
+
+                                            <!--FORMULARIO-->
+
+
+                <form action="#" method="POST">
+                    <fieldset style="text-align: left;">
+                        <fieldset class="grupo">
+                                                <!--NOME_E_EMAIL-->
+                            <div class="campo">
+                                <label for="nome">Nome</label>
+                                <br/>
+                                <input type="text" name="nome" id="nome" style="width: 30em" value="">
+                            </div>    
+
+                            <div class="campo">
+                                <label for="email">E-mail</label>
+                                <br/>
+                                <input type="text" name="email" id="email"  style="width: 30em" value="">
+                            </div>
+                            <br/>
+                            <div class="campo">
+                                <label for="estado">Estado</label>
+                                <select name="estado" id="estado">
+                                    <option value="">--</option>
+                                    <option value="AC">AC</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="AP">AP</option>
+                                    <option value="PA">PA</option>
+                                    <option value="TO">TO</option>
+                                    <option value="AM">AM</option>
+                                    <option value="MA">MA</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="CE">CE</option>
+                                    <option value="RN">RN</option>
+                                    <option value="PB">PB</option>
+                                    <option value="AL">AL</option>
+                                    <option value="SE">SE</option>
+                                    <option value="BA">BA</option>
+                                    <option value="MS">MS</option>
+                                    <option value="DF">DF</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MT">MT</option>
+                                    <option value="MG">MG</option>
+                                    <option value="ES">ES</option>
+                                    <option value="RJ">EJ</option>
+                                    <option value="SP">SP</option>
+                                    <option value="PR">PR</option>
+                                    <option value="SC">SC</option>
+                                    <option value="RS">RS</option>
+                                </select>
+                                
+                                    
+                                
+                            </div>
+
+
+                            <label>
+                            </br>
+                                <label >Envie uma foto de Perfil</label>
+                                <br/>
+                                <input type="file" id="myFile" name="filename">
+                               
+                            </label>
+
+                            <br/>
+
+
+
+
+                        </fieldset>
+                        </br>
+
+
+                                               <!--MENSAGEM_E_BOTAO-ENVIAR-->             
+                            <div class="campo">
+                                <label for="mensagem" >Mensagem</label>
+                                
+                                <textarea rows="6" style="width: 30em" id="mensagem" name="mensagem"></textarea>
+                            </div>    
+                            <BR/>
+
+
+                            <div class="campo">
+                                
+                                <label>
+                                    <input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter da CovidZero?
+                                </label>
+                            </div>  
+
+
+                            <button type="submit" name="botao">Enviar</button>
+                            <button type="reset" value="Reset">Cancelar</button>
+                        
+                            <br/>
+                            <br/>
+                            <br/>
+                      
+
+
+                    </fieldset>
+                </form>
+
+                       
+                </div>
+            </div>
+        </div>
+    </main>    
+
+ 
+    </body>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div>
+        
+              <footer>
+                <div class="row-lg-12 row-md-12 row-sm-12" id="rodape">
+
+
+                    <div class="col-lg-12 col-md-12 col-sm-12" id="rodape">
+                        <h1 id="rodape">Made with <i class="fas fa-heart"></i> in Brazil
+                        </i>
+                        </h1>
+                    </div>
+                    
+                </div>
+              </footer>
+          
+  
+            
+  
+    </div>
+</html>
